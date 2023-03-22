@@ -1,0 +1,67 @@
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.formLabel {
+  margin-bottom: 0.25rem;
+}
+
+.formField {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #636363 !important;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.formFieldTextarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #636363 !important;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  min-height: calc(1.5em + 0.75rem + 2px);
+}
+
+.formFieldError {
+  border: 1px solid #e11d48;
+}
+
+.formFieldErrorMessage {
+  display: inline-block;
+  margin: 0.25rem 0 0 0;
+  color: #e11d48;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formSubmitBtn {
+  padding: 0.5rem 0.7rem;
+  min-width: 5rem;
+  background-color: #9333ea;
+  color: #f3e8ff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
